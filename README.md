@@ -21,7 +21,15 @@ $ docker-compose down
 deploy change
 
 ```
+# ex. ./deploy.sh app-react
 $ ./deploy.sh <app>
+```
+
+kill app
+
+```
+# ex. ./kill.sh app-wc
+$ ./kill.sh <app>
 ```
 
 -------
