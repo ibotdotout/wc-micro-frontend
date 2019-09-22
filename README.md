@@ -1,5 +1,6 @@
-Hello, Micro Frontend
+Micro Frontends: Run-time integration via Web Components
 --------
+tested on Google Chrome Version 76 (22 Sept 2019)
 
 how to run
 

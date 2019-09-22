@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    Micro Frontends: Runtime Integration with Web Compoment
+    Micro Frontends: Run-time integration via Web Components
   </div>
 </template>
 
