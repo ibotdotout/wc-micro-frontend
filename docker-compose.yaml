@@ -7,33 +7,27 @@ services:
             - PORT=3000
         ports:
             - "3000:3000"
-    app-a:
-        build: ./micro-frontend-app/a
+    app-wc:
+        build: ./micro-frontend-app/wc
         environment:
             - PORT=3001
         ports:
             - "3001:3001"
-    app-b:
-        build: ./micro-frontend-app/b
+    app-react:
+        build: ./micro-frontend-app/react-app
         environment:
             - PORT=3002
         ports:
             - "3002:3002"
-    app-react:
-        build: ./micro-frontend-app/react-app
+    app-vue:
+        build: ./micro-frontend-app/vue-app
         environment:
             - PORT=3003
         ports:
             - "3003:3003"
-    app-vue:
-        build: ./micro-frontend-app/vue-app
+    app-ng:
+        build: ./micro-frontend-app/ng-app
         environment:
             - PORT=3004
         ports:
             - "3004:3004"
-    app-ng:
-        build: ./micro-frontend-app/ng-app
-        environment:
-            - PORT=3005
-        ports:
-            - "3005:3005"

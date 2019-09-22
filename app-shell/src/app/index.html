@@ -1,26 +1,32 @@
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Micro Frontend</title>
-        <script src="http://localhost:3001/app-a.js"></script>
-        <script src="http://localhost:3002/app-b.js"></script>
-        <script src="http://localhost:3003/static/js/react-bundle.js"></script>
-        <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
-        <script src="http://localhost:3004/app-vue.min.js"></script>
-        <script src="http://localhost:3005/elements.js"></script>
     </head>
 
     <body>
-        Micro Frontend!!!
-        <app-a></app-a>
-        <app-b></app-b>
-        <app-react></app-react>
-        <app-vue></app-vue>
-        <app-ng></app-ng>
+        <div>
+            <!-- React-->
+            <app-react></app-react>
+            <script src="http://localhost:3002/static/js/react-bundle.js"></script>
+        </div>
+        <div>
+            <!-- WebComponent-->
+            <app-wc></app-wc>
+            <script src="http://localhost:3001/app-wc.js"></script>
+        </div>
+        <div>
+            <!-- Angular-->
+            <app-ng></app-ng>
+            <script src="http://localhost:3004/elements.js"></script>
+        </div>
+        <div>
+            <!-- Vue-->
+            <app-vue></app-vue>
+            <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+            <script src="http://localhost:3003/app-vue.min.js"></script>
+        </div>
     </body>
-
 </html>
-

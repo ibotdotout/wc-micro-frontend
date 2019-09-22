@@ -21,7 +21,6 @@ $ docker-compose down
 deploy change
 
 ```
-# ex. ./deploy app-react
 $ ./deploy.sh <app>
 ```
 
@@ -34,8 +33,7 @@ $ ./deploy.sh <app>
 
 ### Applications
 Web Component (HTML templates) Application
-- `app-a`: `micro-frontend-app/a/src/app/app-a.js`
-- `app-b`: `micro-frontend-app/b/src/app/app-b.js`
+- `app-wc`: `micro-frontend-app/wc/src/app/app-wc.js`
 
 React Application
 - `app-react`: `micro-frontend-app/react-app/src/App.js`

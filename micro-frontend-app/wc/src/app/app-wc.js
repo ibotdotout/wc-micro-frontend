@@ -20,4 +20,4 @@ class A extends HTMLElement {
 	}
 }
 
-customElements.define("app-a", A);
+customElements.define("app-wc", A);
