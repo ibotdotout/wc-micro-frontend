@@ -18,6 +18,11 @@
             <div>
                 <!-- React-->
                 <app-react/>
+                <script>
+                    // Default Banner will apper when can't load react web component
+                    const root = document.getElementsByTagName('app-react')[0];
+                    root.innerHTML = `<h1> Banner </h1>`;
+                </script>
                 <script src="http://localhost:3002/static/js/react-bundle.js"></script>
             </div>
             <div style="text-align: right; padding: 20px;">
