@@ -19,3 +19,9 @@ services:
             - PORT=3002
         ports:
             - "3002:3002"
+    app-react:
+        build: ./micro-frontend-app/react-app
+        environment:
+            - PORT=3003
+        ports:
+            - "3003:3003"
