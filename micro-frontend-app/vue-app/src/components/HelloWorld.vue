@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-	Hello Micro Frontend from Vue
+    Micro Frontends: Runtime Integration with Web Compoment
   </div>
 </template>
 

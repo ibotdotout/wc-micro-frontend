@@ -42,4 +42,4 @@ Angular Application
 - `app-ng`: `micro-frontend-app/ng-app/src/app/app.component.html`
 
 Vue Application
-- `app-vue`: `micro-frontend-app/vue-app/src/App.vue`
+- `app-vue`: `micro-frontend-app/vue-app/src/components/HelloWorld.vue`
