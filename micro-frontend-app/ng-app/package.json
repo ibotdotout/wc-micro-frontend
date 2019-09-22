@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "package": "cat dist/ng-app/*.js > dist/elements.js",
+    "package": "cat dist/ng-app/*-es2015.js dist/ng-app/scripts.js > dist/elements.js",
     "serve:docker": "serve -s dist -l $PORT",
     "serve:ng-docker": "serve -s dist/ng-app -l $PORT"
   },

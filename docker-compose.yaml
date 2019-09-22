@@ -31,3 +31,9 @@ services:
             - PORT=3004
         ports:
             - "3004:3004"
+    app-ng:
+        build: ./micro-frontend-app/ng-app
+        environment:
+            - PORT=3005
+        ports:
+            - "3005:3005"
