@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+    app-shell:
+        build: ./app-shell
+        environment:
+            - PORT=3000
+        ports:
+            - "3000:3000"
+    app-a:
+        build: ./micro-frontend-app/a
+        environment:
+            - PORT=3001
+        ports:
+            - "3001:3001"
+    app-b:
+        build: ./micro-frontend-app/b
+        environment:
+            - PORT=3002
+        ports:
+            - "3002:3002"
