@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
+import banner from './banner.png';
 
 function App() {
   return (
     <div className="App">
-        <p>
-          Hello MicroFrontend from React
-        </p>
+      <img src={banner}></img>
     </div>
   );
 }
