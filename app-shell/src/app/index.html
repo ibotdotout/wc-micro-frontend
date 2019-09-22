@@ -4,29 +4,40 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Micro Frontend</title>
+        <style>
+        .content{
+            max-width: 1024;
+            margin: auto;
+            text-align: center;
+        }
+        </style>
     </head>
 
     <body>
-        <div>
-            <!-- React-->
-            <app-react></app-react>
-            <script src="http://localhost:3002/static/js/react-bundle.js"></script>
-        </div>
-        <div>
-            <!-- WebComponent-->
-            <app-wc></app-wc>
-            <script src="http://localhost:3001/app-wc.js"></script>
-        </div>
-        <div>
-            <!-- Angular-->
-            <app-ng></app-ng>
-            <script src="http://localhost:3004/elements.js"></script>
-        </div>
-        <div>
-            <!-- Vue-->
-            <app-vue></app-vue>
-            <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
-            <script src="http://localhost:3003/app-vue.min.js"></script>
+        <div class="content">
+            <div>
+                <!-- React-->
+                <app-react/>
+                <script src="http://localhost:3002/static/js/react-bundle.js"></script>
+            </div>
+            <div style="text-align: right; padding: 20px;">
+                <!-- WebComponent-->
+                <app-wc></app-wc>
+                <script src="http://localhost:3001/app-wc.js"></script>
+            </div>
+            <div style="text-align: left; height: 60%;">
+                <!-- Angular-->
+                <app-ng></app-ng>
+                <app-ng></app-ng>
+                <app-ng></app-ng>
+                <script src="http://localhost:3004/elements.js"></script>
+            </div>
+            <div>
+                <!-- Vue-->
+                <app-vue/>
+                <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+                <script src="http://localhost:3003/app-vue.min.js"></script>
+            </div>
         </div>
     </body>
 </html>
