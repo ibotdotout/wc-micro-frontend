@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+class AppReact extends HTMLElement {
+	  connectedCallback() {
+			    const mountPoint = document.createElement('span');
+			    this.attachShadow({ mode: 'open' }).appendChild(mountPoint);
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+					ReactDOM.render(<App />, mountPoint)
+			  }
+}
+customElements.define('app-react', AppReact);
