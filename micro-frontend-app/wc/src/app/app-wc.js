@@ -2,6 +2,14 @@ class A extends HTMLElement {
   constructor() {
     super();
     const shadow = this.attachShadow({ mode: "open" });
+    this.shadowRoot.innerHTML = `
+    <style>
+    .container{
+      background: #89b77f;
+      padding: 3px;
+    }
+    </style>
+    `
     const wrapper = this.render();
     shadow.appendChild(wrapper);
 
@@ -34,6 +42,7 @@ class A extends HTMLElement {
   renderContainer() {
     const msg = document.createElement("div");
     msg.innerHTML = `
+     Web Component
      <form method="get" action="http://google.com/search">
           <input type="text" id="searchElem" name="q" value="` + this.q + `" required autofocus>
           <input type="submit" value="Google search">
