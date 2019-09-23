@@ -42,13 +42,13 @@ $ ./kill.sh <app>
 
 ### Applications
 Web Component (HTML templates) Application
-- `app-wc`: `micro-frontend-app/wc/src/app/app-wc.js`
+- `app-wc`: `micro-frontend-app/app-wc/src/app/app-wc.js`
 
 React Application
-- `app-react`: `micro-frontend-app/react-app/src/App.js`
+- `app-react`: `micro-frontend-app/app-react/src/App.js`
 
 Angular Application
-- `app-ng`: `micro-frontend-app/ng-app/src/app/app.component.html`
+- `app-ng`: `micro-frontend-app/app-ng/src/app/app.component.html`
 
 Vue Application
-- `app-vue`: `micro-frontend-app/vue-app/src/components/HelloWorld.vue`
+- `app-vue`: `micro-frontend-app/app-vue/src/components/HelloWorld.vue`
