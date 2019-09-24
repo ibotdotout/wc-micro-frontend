@@ -37,6 +37,24 @@ $ ./kill.sh <app>
 
 ## Micro Frontends
 
+```
+.
+├── app-shell
+│   ├── Dockerfile
+│   ├── package.json
+│   └── src
+├── fragments
+│   ├── app-ng
+│   ├── app-react
+│   ├── app-vue
+│   └── app-wc
+├── docker-compose.yaml
+├── README.md
+├── deploy.sh
+├── kill.sh
+└── run.sh
+```
+
 ### App Shell: Micro Frontends Integration
 - `app-shell`: `app-shell/src/app/index.html`
 
