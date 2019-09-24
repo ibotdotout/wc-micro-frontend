@@ -8,25 +8,25 @@ services:
         ports:
             - "3000:3000"
     app-wc:
-        build: ./micro-frontend-app/app-wc
+        build: ./fragments/app-wc
         environment:
             - PORT=3001
         ports:
             - "3001:3001"
     app-react:
-        build: ./micro-frontend-app/app-react
+        build: ./fragments/app-react
         environment:
             - PORT=3002
         ports:
             - "3002:3002"
     app-vue:
-        build: ./micro-frontend-app/app-vue
+        build: ./fragments/app-vue
         environment:
             - PORT=3003
         ports:
             - "3003:3003"
     app-ng:
-        build: ./micro-frontend-app/app-ng
+        build: ./fragments/app-ng
         environment:
             - PORT=3004
         ports:

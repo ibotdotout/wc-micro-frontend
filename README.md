@@ -40,15 +40,15 @@ $ ./kill.sh <app>
 ### App Shell: Micro Frontends Integration
 - `app-shell`: `app-shell/src/app/index.html`
 
-### Applications
+### Fragments
 Web Component (HTML templates) Application
-- `app-wc`: `micro-frontend-app/app-wc/src/app/app-wc.js`
+- `app-wc`: `fragments/app-wc/src/app/app-wc.js`
 
 React Application
-- `app-react`: `micro-frontend-app/app-react/src/App.js`
+- `app-react`: `fragments/app-react/src/App.js`
 
 Angular Application
-- `app-ng`: `micro-frontend-app/app-ng/src/app/app.component.html`
+- `app-ng`: `fragments/app-ng/src/app/app.component.html`
 
 Vue Application
-- `app-vue`: `micro-frontend-app/app-vue/src/components/HelloWorld.vue`
+- `app-vue`: `fragments/app-vue/src/components/HelloWorld.vue`
